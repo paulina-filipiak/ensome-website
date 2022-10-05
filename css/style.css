@@ -12,6 +12,8 @@
   --color-background: #f1f6fa;
   --color-red: #c14040;
   --color-white: #ffffff;
+  --color-hovered-button: #467dff;
+
   --color-text: var(--color-white);
 
   /*------------------shadows-----------------------------*/
@@ -140,4 +142,44 @@ div {
 .shadow_dropdown {
   box-shadow: var(--shadow-dropdown);
   border-radius: var(--shadow-radius);
+}
+
+/*------------------buttons-----------------------------*/
+
+button {
+  margin: 70px 10px;
+}
+
+.button_fill {
+  color: var(--color-white);
+  border: none;
+  background-color: var(--color-primary);
+  box-shadow: var(--shadow-button);
+  border-radius: var(--shadow-radius);
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 46px;
+  gap: 12px;
+  width: 190px;
+  height: 54px;
+}
+
+.button_fill:hover {
+  background-color: var(--color-hovered-button);
+}
+
+.button_fill:active {
+  background-color: var(--color-primary);
+  box-shadow: none;
+}
+
+.button_fill:disabled {
+  background-color: var(--color-grey);
+  box-shadow: none;
 }
