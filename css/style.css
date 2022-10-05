@@ -1,0 +1,143 @@
+:root {
+  /*------------------colors-----------------------------*/
+
+  --color-primary: #185cff;
+  --color-secondary: #002b4e;
+  --color-tetiary: #f0f9ff;
+  --color-helper-blue-1: #194060;
+  --color-helper-blue-2: #607d94;
+  --color-helper-blue-3: #c9dcec;
+  --color-black: #292d33;
+  --color-grey: #9497a1;
+  --color-background: #f1f6fa;
+  --color-red: #c14040;
+  --color-white: #ffffff;
+  --color-text: var(--color-white);
+
+  /*------------------shadows-----------------------------*/
+  --shadow-button: 0px 12px 30px rgba(24, 92, 255, 0.18);
+  --shadow-card-1: 0px 2px 20px 17px rgba(24, 92, 255, 0.04);
+  --shadow-card-2: 0px 12px 30px 17px rgba(24, 92, 255, 0.04);
+  --shadow-card-3: 0px 4px 12px rgba(12, 68, 204, 0.1);
+  --shadow-dropdown: 0px 2px 6px rgba(0, 43, 78, 0.15),
+    0px 1px 2px rgba(0, 43, 78, 0.3);
+  --shadow-radius: 6px;
+
+  /*------------------fonts-----------------------------*/
+
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.015em;
+}
+
+/*--------------------------------------------------------*/
+/*------------------headlines-----------------------------*/
+
+h1 {
+  font-size: 2.875rem;
+  color: var(--color-black);
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2.375rem;
+  color: var(--color-black);
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 1.875rem;
+  color: var(--color-black);
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 1.375rem;
+  color: var(--color-black);
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1.25rem;
+  color: var(--color-black);
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--color-black);
+  font-weight: 700;
+}
+
+h7 {
+  font-size: 0.875rem;
+  color: var(--color-black);
+  font-weight: 600;
+}
+
+/*------------------paragraphs-----------------------------*/
+
+.p1r {
+  font-family: "Open Sans";
+  font-size: 1.25rem;
+  color: var(--color-black);
+  font-weight: 400;
+}
+
+.p2r {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  color: var(--color-black);
+  font-weight: 400;
+}
+
+.p2b {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  color: var(--color-black);
+  font-weight: 700;
+}
+
+.p3r {
+  font-family: "Open Sans";
+  font-size: 0.875rem;
+  color: var(--color-black);
+  font-weight: 400;
+}
+
+.p3b {
+  font-family: "Open Sans";
+  font-size: 0.875rem;
+  color: var(--color-black);
+  font-weight: 600;
+}
+
+/*------------------shadows-----------------------------*/
+
+div {
+  margin: 70px 10px;
+}
+.shadow_button {
+  box-shadow: var(--shadow-button);
+  border-radius: var(--shadow-radius);
+}
+
+.shadow_card_1 {
+  box-shadow: var(--shadow-card-1);
+  border-radius: var(--shadow-radius);
+}
+
+.shadow_card_2 {
+  box-shadow: var(--shadow-card-2);
+  border-radius: var(--shadow-radius);
+}
+
+.shadow_card_3 {
+  box-shadow: var(--shadow-card-3);
+  border-radius: var(--shadow-radius);
+}
+
+.shadow_dropdown {
+  box-shadow: var(--shadow-dropdown);
+  border-radius: var(--shadow-radius);
+}
