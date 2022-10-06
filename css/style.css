@@ -426,14 +426,42 @@ svg.play_icon_big path {
   position: absolute;
 }
 
-.button_circle_mobile:hover {
+.button_circle_mobile:active {
   background-color: var(--color-hovered-button);
 }
 
-.button_circle_mobile:active {
-  background-color: var(--color-primary);
+.button_circle_mobile:disabled {
+  background-color: var(--color-grey);
 }
 
-.button_circle_mobile:disabled {
+/*--------------------------------------------------------*/
+.button_search {
+  color: var(--color-white);
+  border: none;
+  background-color: var(--color-primary);
+  box-shadow: none;
+  border-radius: var(--radius-button);
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  gap: 10px;
+  width: 84px;
+  height: 54px;
+}
+.button_search svg {
+  position: absolute;
+}
+
+.button_search:active {
+  background-color: var(--color-hovered-button);
+}
+
+.button_search:disabled {
   background-color: var(--color-grey);
 }
