@@ -465,3 +465,47 @@ svg.play_icon_big path {
 .button_search:disabled {
   background-color: var(--color-grey);
 }
+
+/*--------------------------------------------------------*/
+
+.button_with_icon_outlined {
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-white);
+  box-shadow: none;
+  border-radius: var(--radius-button);
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px, 26px, 11px, 26px;
+  gap: 10px;
+  width: 328px;
+  height: 54px;
+}
+
+svg.play_icon_big path {
+  fill: var(--color-primary);
+}
+
+.button_with_icon_outlined:active {
+  color: var(--color-hovered-button);
+  border: 1px solid var(--color-hovered-button);
+}
+
+.button_with_icon_outlined:active svg path {
+  fill: var(--color-hovered-button);
+}
+
+.button_with_icon_outlined:disabled {
+  color: var(--color-grey);
+  border: 1px solid var(--color-grey);
+}
+
+.button_with_icon_outlined:disabled svg path {
+  fill: var(--color-grey);
+}
