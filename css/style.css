@@ -327,7 +327,7 @@ svg.play_icon_big path {
   color: var(--color-white);
   border: none;
   background-color: var(--color-primary);
-  box-shadow: var(--shadow-button);
+  box-shadow: none;
   border-radius: var(--shadow-radius);
   font-family: "Manrope";
   font-weight: 600;
@@ -345,6 +345,7 @@ svg.play_icon_big path {
 
 .button_little:hover {
   background-color: var(--color-hovered-button);
+  box-shadow: var(--shadow-button);
 }
 
 .button_little:active {
