@@ -24,6 +24,9 @@
   --shadow-dropdown: 0px 2px 6px rgba(0, 43, 78, 0.15),
     0px 1px 2px rgba(0, 43, 78, 0.3);
   --shadow-radius: 6px;
+  --radius-button: 6px;
+  --radius-button-circle-desktop: 70px;
+  --radius-button-circle-mobile: 50px;
 
   /*------------------fonts-----------------------------*/
 
@@ -34,7 +37,9 @@
 
 /*--------------------------------------------------------*/
 /*------------------headlines-----------------------------*/
-
+html {
+  background-color: var(--color-grey);
+}
 h1 {
   font-size: 2.875rem;
   color: var(--color-black);
@@ -359,3 +364,76 @@ svg.play_icon_big path {
 }
 
 /*--------------------------------------------------------*/
+.button_circle_desktop {
+  color: var(--color-white);
+  border: 10px solid var(--color-white);
+  background-color: var(--color-primary);
+  box-shadow: none;
+  border-radius: var(--radius-button-circle-desktop);
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 14px 10px 14px;
+  gap: 10px;
+  width: 140px;
+  height: 140px;
+}
+
+.button_circle_desktop svg {
+  position: absolute;
+}
+
+.button_circle_desktop:hover {
+  background-color: var(--color-hovered-button);
+}
+
+.button_circle_desktop:active {
+  background-color: var(--color-primary);
+}
+
+.button_circle_desktop:disabled {
+  background-color: var(--color-grey);
+}
+
+/*--------------------------------------------------------*/
+.button_circle_mobile {
+  color: var(--color-white);
+  border: 5px solid var(--color-white);
+  background-color: var(--color-primary);
+  box-shadow: none;
+  border-radius: var(--radius-button-circle-mobile);
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 100px;
+  height: 100px;
+  letter-spacing: -0.015em;
+}
+
+.button_circle_mobile svg {
+  position: absolute;
+}
+
+.button_circle_mobile:hover {
+  background-color: var(--color-hovered-button);
+}
+
+.button_circle_mobile:active {
+  background-color: var(--color-primary);
+}
+
+.button_circle_mobile:disabled {
+  background-color: var(--color-grey);
+}
