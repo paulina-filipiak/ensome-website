@@ -77,6 +77,7 @@ h7 {
   font-weight: 600;
 }
 
+/*--------------------------------------------------------*/
 /*------------------paragraphs-----------------------------*/
 
 .p1r {
@@ -114,6 +115,7 @@ h7 {
   font-weight: 600;
 }
 
+/*--------------------------------------------------------*/
 /*------------------shadows-----------------------------*/
 
 div {
@@ -144,6 +146,7 @@ div {
   border-radius: var(--shadow-radius);
 }
 
+/*--------------------------------------------------------*/
 /*------------------buttons-----------------------------*/
 
 button {
@@ -184,6 +187,8 @@ button {
   box-shadow: none;
 }
 
+/*--------------------------------------------------------*/
+
 .button_with_icon {
   color: var(--color-white);
   border: none;
@@ -217,3 +222,103 @@ button {
 .button_with_icon:disabled {
   background-color: var(--color-grey);
 }
+
+/*--------------------------------------------------------*/
+
+.button_with_icon_no_fill {
+  color: var(--color-black);
+  border: none;
+  background-color: var(--color-white);
+  box-shadow: none;
+  border-radius: var(--shadow-radius);
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px, 14px, 10px, 14px;
+  gap: 10px;
+  width: 168px;
+  height: 44.54px;
+}
+
+svg.play_icon path {
+  fill: var(--color-black);
+}
+
+.button_with_icon_no_fill:hover {
+  color: var(--color-primary);
+}
+.button_with_icon_no_fill:hover svg path {
+  fill: var(--color-primary);
+}
+
+.button_with_icon_no_fill:active {
+  color: var(--color-primary);
+}
+
+.button_with_icon_no_fill:active svg path {
+  fill: var(--color-primary);
+}
+
+.button_with_icon_no_fill:disabled {
+  color: var(--color-grey);
+}
+
+.button_with_icon_no_fill:disabled svg path {
+  fill: var(--color-grey);
+}
+
+/*--------------------------------------------------------*/
+
+.button_with_icon_no_fill_big {
+  color: var(--color-black);
+  border: none;
+  background-color: var(--color-white);
+  box-shadow: none;
+  border-radius: var(--shadow-radius);
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px, 26px, 11px, 26px;
+  gap: 10px;
+  width: 218px;
+  height: 54px;
+}
+
+svg.play_icon_big path {
+  fill: var(--color-black);
+}
+
+.button_with_icon_no_fill_big:hover {
+  color: var(--color-primary);
+}
+.button_with_icon_no_fill_big:hover svg path {
+  fill: var(--color-primary);
+}
+
+.button_with_icon_no_fill_big:active {
+  color: var(--color-primary);
+}
+
+.button_with_icon_no_fill_big:active svg path {
+  fill: var(--color-primary);
+}
+
+.button_with_icon_no_fill_big:disabled {
+  color: var(--color-grey);
+}
+
+.button_with_icon_no_fill_big:disabled svg path {
+  fill: var(--color-grey);
+}
+
+/*--------------------------------------------------------*/
